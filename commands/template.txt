@@ -1,0 +1,15 @@
+const Discord = require("discord.js");
+
+module.exports = class cmd {
+    constructor(){
+        this.name = 'cmd',
+        this.alias = ['alias'],
+        this.usage = 'cmd'
+    }
+
+    run(bot, message, args){
+        /*
+        Put your commands here
+        */
+    }
+}
